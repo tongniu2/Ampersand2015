@@ -19,7 +19,31 @@ a:hover {
   border: 1px solid #fff;
 }
 
+#counter-default {
+    margin-top: 80px;
+}
 
+
+
+.bk-blue {
+    background-color: #f80374;
+}
+
+.bk-green {
+    background-color: #f80374;
+}
+
+.bk-red {
+    background-color: #f80374;
+}
+
+.bk-pink {
+    background-color: #f80374;
+}
+
+.medium {
+    height: 5px;
+}
 /*
  * Base structure
  */
