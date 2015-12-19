@@ -1,3 +1,9 @@
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+html, 
 body {
       position: absolute; 
       background: url("bg.png") no-repeat center center fixed;
