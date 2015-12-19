@@ -4,10 +4,11 @@ body {
       background-size: 100% 110%;
       overflow: hidden;
       color: #fff;
+      text-align: center;
 }
-  #home {padding-top:50px;color: #fff; background-color: #180271; width: 100%;}
-  #about {padding-top:50px;color: #fff; background-color: #f80374; width: 100%}
-  #schedule {padding-top:50px;color: #fff; background-color: #180271; width: 100%}
-  #tickets {padding-top:50px;color: #fff; background-color: #f80374; width: 100%}
-  #contact {padding-top:50px;color: #fff; background-color: #180271; width: 100%}
+  #home {padding-top:50px;color: #fff; background-color: #180271; }
+  #about {padding-top:50px;color: #fff; background-color: #f80374; }
+  #schedule {padding-top:50px;color: #fff; background-color: #180271; }
+  #tickets {padding-top:50px;color: #fff; background-color: #f80374; }
+  #contact {padding-top:50px;color: #fff; background-color: #180271; }
 
