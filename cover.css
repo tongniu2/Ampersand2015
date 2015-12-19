@@ -54,7 +54,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   text-align: center;
   text-shadow: 
