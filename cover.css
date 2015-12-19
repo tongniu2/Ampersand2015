@@ -82,6 +82,8 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
+  overflow:hidden;
+  width: 100%;
 }
 
 /*
@@ -187,7 +189,7 @@ body {
   }
 }
 
-#cover-headings {
+div.cover-headings {
     width: 100px;
     height: 100px;
 
@@ -198,4 +200,6 @@ body {
     right: 0;
 
     margin: auto;
+    
+    overflow:hidden;
 }
