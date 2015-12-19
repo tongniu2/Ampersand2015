@@ -84,6 +84,7 @@ body {
   padding: 30px;
   overflow:hidden;
   width: 100%;
+  position:fixed;
 }
 
 .cover-headings {
