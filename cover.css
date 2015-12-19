@@ -51,7 +51,6 @@ a:hover {
 html,
 body {
   background: url("bg.png") no-repeat center center fixed;
-
   background-size: cover;
   color: #fff;
   text-align: center;
@@ -82,19 +81,6 @@ body {
 /* Padding for spacing */
 .inner {
   padding: 30px;
-}
-
-.cover-headings {
-    width: 100px;
-    height: 100px;
-
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;
 }
 
 /*
@@ -198,4 +184,17 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+#cover-headings {
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
