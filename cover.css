@@ -84,10 +84,9 @@ body {
   padding: 30px;
 }
 
-.cover-heading {
+.cover-headings {
     width: 100px;
     height: 100px;
-    background-color: red;
 
     position: absolute;
     top:0;
