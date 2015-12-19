@@ -12,7 +12,7 @@ body {
       color: #fff;
       text-align: center;
 }
-  #home {padding-top:50px;color: #fff; background-color: #180271; }
+  #home {padding-top:50px;color: #fff; background-color: #180271; position: absolute; left:20%;}
   #about {padding-top:50px;color: #fff; background-color: #f80374; }
   #schedule {padding-top:50px;color: #fff; background-color: #180271; }
   #tickets {padding-top:50px;color: #fff; background-color: #f80374; }
