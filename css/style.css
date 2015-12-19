@@ -5,7 +5,6 @@ a:hover {
 }
 html, 
 body {
-      position: absolute; 
       background: url("../bg.png") no-repeat center center fixed;
       background-size: 100% 110%;
       overflow: hidden;
