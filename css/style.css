@@ -1,7 +1,7 @@
 body {
       position: fixed; 
   }
-  #home {padding-top:50px;height:500px;color: #fff; background-color: #180271;}
-  #about {padding-top:50px;height:500px;color: #fff; background-color: #f80374;}
-  #schedule {padding-top:50px;height:500px;color: #fff; background-color: #180271;}
-  #tickets {padding-top:50px;height:500px;color: #fff; background-color: #f80374;}
+  #home {padding-top:50px;color: #fff; background-color: #180271;}
+  #about {padding-top:50px;color: #fff; background-color: #f80374;}
+  #schedule {padding-top:50px;color: #fff; background-color: #180271;}
+  #tickets {padding-top:50px;color: #fff; background-color: #f80374;}
