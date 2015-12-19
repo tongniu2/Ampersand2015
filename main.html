@@ -25,5 +25,409 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
+<body>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Section 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Section 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+    <!-- MAIN CONTAINER -->
+<--
+    <div class="container">
+        <!-- HOME SECION -->
+        <section id="home-section">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h1><font style="text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;" color="#eb3c58">WINTER ACTIVITIES<br> NIGHT <i class="fa fa-plus-circle main-color"></i> 2016  </font></h1>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="divider"></div>
+                        <h3 class="center" style="color: white;text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;">
+                        JANUARY 12TH and 13TH 4PM - 8PM <br> SSMU Building <br> Join a club. Discover a community. </h3>
+                         <div class="divider"></div>
+                        <!-- .Headings -->
+                        <div id="counter"></div>
+                        <div id="counter-default" class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="day-number" class="timer-number"></div>
+                                    <div class="timer-text">DAYS</div>
+                                    <div class="progress medium  active">
+                                        <div id="day-bar" class="progress-bar bk-blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="hour-number" class="timer-number"></div>
+                                    <div class="timer-text">HOURS</div>
+                                    <div class="progress medium  active">
+                                        <div id="hour-bar" class="progress-bar bk-green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="minute-number" class="timer-number"></div>
+                                    <div class="timer-text">MINUTES</div>
+                                    <div class="progress medium  active">
+                                        <div id="minute-bar" class="progress-bar bk-pink"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="second-number" class="timer-number"></div>
+                                    <div class="timer-text">SECONDS</div>
+
+                                    <div class="progress medium  active">
+                                        <div id="second-bar" class="progress-bar bk-red"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./Counter -->
+
+
+                    </div>
+                </div>
+            </div>
+            <!--./row-->
+     </section>
+        <!-- END HOME SECTION -->
+        <!-- ABOUT SECION -->
+        <section id="about-section">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 abt-back-color">
+                    <div class="divider-two"></div>
+                    <h2 class="center">ABOUT AC<i class="fa fa-plus-circle main-color"></i>IVITIES NIGHT</h2>   
+                    <div class="divider-two"></div>
+                    <!-- ./Headings -->
+                    <br>
+                    <blockquote>
+                            <a href="https://www.facebook.com/SSMUCS" target="_blank">What is Activities Night? Every year the <u>SSMU Clubs and Services</u> team holds two Activities Night events - one at the beginning of the Fall semester and one at the beginning of the Winter semester - promote the hundreds of student groups on campus.</a> </blockquote>
+                            <p>Activities Night is a hub for student engagement and campus involvement, with 300+ clubs, services, publications, faculty associations, and other student groups under one roof in the SSMU Building! Chat with the student executives running these groups and sign up to join the mailing list of the clubs you&#39;re interested in - many of the groups tabling at Activities Night are looking for new members and even new executive members! 
+
+<br><br>This year, for the first time ever, we will be holding a <u><strong>2-day Winter Activities Night</strong></u> which will run from <font size="3"><b>4pm - 8pm on Tuesday, January 12th and Wednesday, January 13th in the SSMU Building.</b></font> Join us to learn all there is to know about getting involved at McGill!<br><br></p>
+
+                            <a href="./faq/FAQ.html"> Click <u>here</u> to read some <i>frequently asked questions</i>! A floorplan will be coming soon!</a><br><br>
+We are also looking for volunteers to help make this event the best Activities Night yet! You’ll meet lots of great people, get an all-access pass for both nights, AND a recommendation letter at the end. <a href="http://bit.ly/1Yn3DAD"> If you're interested in volunteering a few hours of your time, please fill out this form.</a><br>
+                            <!--<a href="./Floorplan.pdf" type="application/pdf"> Click <u>here</u> to see a <i>floor plan of the event</i> and find out where all the tables are located!</a>-->
+                    
+                    <!--<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> 
+                    <form>
+                    <button type="button" class="btn btn-success font-30 main-color" onclick="parent.location='index.html'">Activities Night MVPs</button>
+                    </form>
+                    </div>
+                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"> 
+                    <form>
+                    <button type="button" class="btn btn-success font-30 main-color" onclick="parent.location='index.html'">Frequently Asked Questions</button>
+                    </form>
+                    </div>-->
+                </div>
+            </div>
+            <!--./row-->
+        </section>
+        <!-- END ABOUT SECION -->
+        <!-- ATTENDEES SECION -->
+        <section id="attendees-section">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 srvc-back-color">
+                    <div class="divider-two"></div>
+                    <h2 class="center"> LOOKING TO JOIN SOME STUDENT GROUPS? <br> </h2>
+                    <div class="divider-two margin-bottom-50"></div>
+                    <!-- ./Headings -->
+                   
+                    <!--<p class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-12 center" style="border-style:groove; border-color:main-color; border-width:medium;">                   
+                         <font size="4" text-align="center"><b><u>3 Things You Need to Know:</b></u></font><br> 
+                         <font size="3">
+                        1. Doors open at 4 PM.<br>
+                        2. Enter through the main entrance on McTavish Street. <br>
+                        <a href="./AttendeesEntrance.png" type="image/x-generic" target="_blank"><b>~~~~~~~~~Click here to see a map!~~~~~~~~~</b></a><br>
+                        3. You don&#39; need to bring anything, except maybe a friend! Everyone is welcome!<br>
+                        </font>
+                   </p>-->
+                        <p class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 center">
+                        <br><br>Wondering who you&#39;ll see at Activities Night? The list of attending clubs will be coming soon! Click the categories below to see the clubs that attended Fall Activities Night!<br>                                  
+               </p>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#athletics&recreation"><h3><i class="fa fa-dribbble fa-2x main-color"></i></h3>
+                        <h3>Athletics & Recreational Sports</h3></a>
+                        <p>
+			Do you love staying in shape and going to the gym? Does competing in sports appeal to you? See what clubs we have to keep you active! 
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#charity&environment"><h3><i class="fa fa-pagelines fa-2x main-color"></i></h3>
+                        <h3>Charity and Environment</h3></a>
+                        <p>
+			Lend a hand and help someone out along the way or learn how you can make the campus more sustainable!                      
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#outreach&volunteering"><h3><i class="fa fa-thumbs-o-up fa-2x main-color"></i></h3>
+                        <h3>Community Outreach and Volunteering</h3></a>
+                        <p>
+			Volunteer for a good cause and help out the local Montreal community! See what clubs we have to help you get involved!
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#hobby&leisure"><h3><i class="fa fa-gamepad fa-2x main-color"></i></h3>
+                        <h3>Hobby and Leisure</h3></a>
+                        <p>
+			Like anime? Chocolate? Want to learn chess or improve your etiquette? Whatever your interest, we have a club that caters to you! 
+</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center"></div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#language&publication"><h3><i class="fa fa-pencil fa-2x main-color"></i></h3>
+			 <h3>Language and Publications</h3></a>
+                        <p>
+			Are you a budding journalist? Interested in writing and showing off your editorial skills or learning a new language? Check out what we have to offer!
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#networking&leadership"><h3><i class="fa fa-users fa-2x main-color"></i></h3>
+                        <h3>Networking and Leadership Development</h3></a>
+                        <p>
+Put your skills to the test, develop your leadership skills and network along the way! Interested in Medical or Law School? We have clubs for that too! 
+</p>
+                    </div>
+			<a href="./tablers_fall.html#performing&finearts"><div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <h3><i class="fa fa-film fa-2x main-color"></i></h3>
+                        <h3>Performing and Fine Arts Clubs</h3></a>
+                        <p>
+			Practice your drawing skills, show off your vocals, or learn how to tango! Click to see the clubs representing our fine arts community!
+</p>
+                    </div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#political&social"><h3><i class="fa fa-bullhorn fa-2x main-color"></i></h3>
+                        <h3>Political and Social Activism</h3></a>
+                        <p>
+			Have something to say about a cause you&#39;re passionate about? Excited for the upcoming elections? Why not start here? 
+</p>
+                    </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center"></div>
+                	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#religion&culture"><h3><i class="fa fa-globe fa-2x main-color"></i></h3>
+                        <h3>Religion and Culture</h3></a>
+                        <p>
+			Get a taste of home or test your knowledge on culture, religion, and linguistics! Click to find out how diverse the McGill community is!  
+</p>
+                    </div>
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#health&wellness"><h3><i class="fa fa-heart-o fa-2x main-color"></i></h3>
+                        <h3>Health  and  Wellness</h3></a>
+                        <p>
+			Learn how to de-stress and focus on self-care, volunteer in the medical community, or learn about health care systems around the world and make some cool friends along the way! 
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#academic"><h3><i class="fa fa-book fa-2x main-color"></i></h3>
+                        <h3>Academic Groups and Associations</h3></a>
+                        <p>
+			Click to find the list of McGill faculties and departmental associations that will be tabling at Activities Night! 
+</p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 center">
+                        <a href="./tablers_fall.html#services"><h3><i class="fa fa-info-circle fa-2x main-color"></i></h3>
+                        <h3>SSMU and McGill Student Services</h3></a>
+                        <p>
+			Both SSMU and McGill provide a wide variety of services to students. These services provide support, referrals, and resources to countless students. Click to find the list of SSMU and McGill services that will be tabling at Activities Night! 
+</p>
+                    </div>
+</div>
+
+            </div>
+
+            <!--./row-->
+        </section>
+        <!--END ATTENDEES SECION -->
+        <!-- TABLERS  SECION -->
+        <section id="tablers-section">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 abt-back-color">
+                    <div class="divider-two"></div>
+                    <h2 class="center">FOR TABLING CLUBS <i class="fa fa-plus-circle"></i> SERVICES</h2>
+                    <div class="divider-two margin-botom-50"></div>
+                    <!-- ./Headings -->
+<!--
+                    <span>If you're a club looking to participate at the Winter Activities Night, check back here for more details coming soon. Registration forms and other tabling instructions are coming soon! If you're an external group looking to sponsor Activities Night (and reach thousands of McGill students), please email cs[at]ssmu.mcgill.ca! All other questions can be directed to info@activitiesnight.com.</span>-->
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="alert alert-info">
+                            <strong>Before the Event Checklist !</strong> Have you done the following?
+                        </div>
+                        <font size="3" face="arial"><ul class="fa-ul">
+                            <li><i class="fa-li fa fa-check"></i><a style="text-decoration:none" href="http://bit.ly/1Yr0ydL" target="_blank">Sign your club up by filling out this <u>form</u>. Registration ends <i><b>January 8th at noon</b></i>! Once you sign up, you will receive confirmation emails by January 8th (if not earlier).</a></li>
+                            <li><i class="fa-li fa fa-check "></i>Pick up passes and pay for tables at the SSMU Front Desk. Pick up times are Friday, January 8th from 12 p.m. - 7 p.m. and Monday, January 11th from 12 p.m. - 7 p.m. </li>
+                            <li><i class="fa-li fa fa-check "></i>Distribute tabling passes to your members and make sure your club has a plan for who will be tabling when. </li>
+                        </ul>
+                        <br>
+                        <blockquote> To ensure a smooth transition between tabling shifts, make sure your members know who will be tabling before and after them.
+                        </blockquote>
+                        <p>
+                        <b><i>Missed Passes Pickup?</i></b>  Final pass pick up will be Tuesday morning, from 9AM - 11AM, at the SSMU Front Desk.<br>
+                        <br><b><i>Hungry?</i></b>  This year, the Student Run Cafeteria will be open, so if you get hungry mid-tabling shift you can go and grab yourself a snack! <br> 
+                            <br><b><i>Too much stuff?</i></b>  You can now leave your promotional materials at your table overnight! We will be locking all the rooms. Please do not leave any valuables. We cannot guarantee the safety of the items you leave. 
+                            
+
+                        </p>                    </div></font>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="alert alert-warning">
+                            <strong>Day of the Event Checklist! </strong> Get ready to meet some new members!
+                        </div>
+                        <font size="4"><b><center><u>3 Things You Need to Know:</b></center></u></font><br> <font size="3" face="arial">
+                        1. You can enter the building to set up at 3 P.M. Students will be arriving at 4 P.M.<br><br>
+                        2. Enter through the Gerts side entrance. <br>
+                         <font size="2"><a href="./TablersEntrance.png" type="image/x-generic" target="_blank">Click here to see a map!</a></font><br>
+                        3. NO PASS, NO ENTRANCE. <br><font size="2"><a href="./PASSES.JPG" type="text/x-generic" target="_blank">Click here to see how passes work and if you have the right one. </a></font><br>
+                        <br>Make sure you:   
+                        <ul class="fa-ul">
+                            <li><i class="fa-li fa fa-check"></i>Know your table number and what room you are tabling in. Check back for a detailed floorplan<br></li>                           <li><i class="fa-li fa fa-check"></i>Carry your passes with you at all times! <br><a href="./faq/FAQ.html#tabling">Check out our FAQ page to see why passes are so important.</a></li>
+                            <li><i class="fa-li fa fa-check"></i>Return passes to the SSMU front desk anytime from 12 P.M. to 5 P.M. after January 14th.</li>
+                        </ul>
+                        <blockquote>
+                           Please note: those with 6 P.M. - 9 P.M. passes will not be allowed into the building more than 15 minutes before 6 P.M. If you arrive earlier, you will have to wait. Please plan accordingly. 
+                        </blockquote>
+                        </font>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </row>
+           
+        </section>
+        <!-- END TABLER INFO SECION -->
+        <!-- CONTACT SECION -->
+        <section id="subscribe-section">
+                <div class="contact-section">
+                        <div class="container">
+                                <div class="row">
+                                        <div class="col-sm-3 col-sm-offset-4">
+                                                <div class="contact-text" style="color: #000;text-shadow:-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;">
+                                                        <h3>Contact</h3>
+                                                        <address>
+                                                                E-mail: info@activitiesnight.com<br>
+                                                                Phone: (514) 623 2522<br>
+                                                        </address>
+                                                </div>
+                                                <div class="contact-address" style="color: #000;text-shadow:-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff,1px 1px 0 #fff;">
+                                                        
+                                                      <address>
+								Clubs and Services Office <br>
+                                                                Students Society of McGill University (SSMU)<br>
+								3600 Rue McTavish, Suite 1200<br>
+								Montreal, QC, H3A 0G3<br>
+                                                       		Canada <br>
+							 </address>
+                                                </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                                <div id="contact-section" style="color: #ef6279;text-shadow:-.5px -.5px 0 #000,.5px -.5px 0 #000,-.5px .5px 0 #000,.5px .5px 0 #000;">
+                                                        <h3>Questions? Comments? Let Us Know!</h3>
+                                                <div class="status alert alert-success" style="display: none"></div>
+                                                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                                                    <div class="form-group">
+                                                        <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <input type="email" name="email" class="form-control" required="required" placeholder="Email">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Enter your message here!"></textarea>
+                                                    </div>
+ <div class="form-group">
+                                                        <button type="submit" class="btn btn-primary pull-right">Send</button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+        <!-- END CONTACT SECTION -->
+        <!-- FOOTER SECION -->
+        <section id="footer">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
+                    &copy; www.activitiesnight.com 2015 | All rights Reserved.
+                </div>
+            </div>
+            <!--./row-->
+        </section>
+        <!--END FOOTER SECTION -->
+    </div>
+    <!-- END MAIN CONTAINER -->
+    <!--REQUIRED SCRIPTS FILES-->
+    <!--SCRIPTS AT END SO PAGE WILL TAKE LESS TIME TO LOAD-->
+    <!--REQUIRED CORE JQUERY SCRIPTS FILE-->
+    <script src="assets/plugins/jquery.min.js"></script>
+    <!--REQUIRED BOOTSTRAP SCRIPTS FILE-->
+    <script src="assets/plugins/bootstrap/bootstrap.js"></script>
+    <!--REQUIRED SCRIPT FILE FOR VEGAS BACKGROUND IMAGE-->
+    <script src="assets/plugins/vegas/jquery.vegas.min.js"></script>
+    <!--REQUIRED SCRIPT FOR SCROLLING MENU LINKS-->
+    <script src="assets/plugins/jquery.easing.1.3.js"></script>
+    <!--REQUIRED CUSTOM SCRIPT FILE-->
+    <script src="assets/js/custom-image.js"></script>
+-->
+    <!--END REQUIRED SCRIPTS FILES-->
+</body>
 </html>
