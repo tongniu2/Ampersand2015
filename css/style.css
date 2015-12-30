@@ -12,9 +12,9 @@ body {
       color: #fff;
       text-align: center;
 }
-  #home {padding-top:50px;color: #fff; }
-  #about {padding-top:50px;color: #fff; background-color: #f80374; }
-  #schedule {padding-top:50px;color: #fff; background-color: #180271; }
-  #tickets {padding-top:50px;color: #fff; background-color: #f80374; }
-  #contact {padding-top:50px;color: #fff; background-color: #180271; }
+  #home {padding: 20px 5px 100px 5px; color: #fff; }
+  #about {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
+  #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
+  #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
+  #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
 
