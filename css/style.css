@@ -5,6 +5,7 @@ a:hover {
 }
 html, 
 body {
+      background: url(./overlay.png) center repeat;
       background: url("../bg.png") no-repeat top center fixed;
       background-size: cover;
       margin: 10px;
@@ -12,6 +13,7 @@ body {
       color: #fff;
       text-align: center;
 }
+
   #home {padding: 20px 5px 600px 5px; color: #fff; }
   #about {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
   #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
