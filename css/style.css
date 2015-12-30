@@ -5,13 +5,14 @@ a:hover {
 }
 html, 
 body {
-      background: url("../bg.png") no-repeat center center fixed;
+      background: url("../bg.png") no-repeat top center fixed;
+      margin: 40px;
       background-size: 100% 110%;
       overflow: hidden;
       color: #fff;
       text-align: center;
 }
-  #home {padding-top:50px;color: #fff; background-color: #180271;}
+  #home {padding-top:50px;color: #fff; }
   #about {padding-top:50px;color: #fff; background-color: #f80374; }
   #schedule {padding-top:50px;color: #fff; background-color: #180271; }
   #tickets {padding-top:50px;color: #fff; background-color: #f80374; }
