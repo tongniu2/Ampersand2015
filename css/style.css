@@ -21,3 +21,17 @@ body {
   #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
   #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
 
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
