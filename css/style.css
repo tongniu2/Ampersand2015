@@ -5,7 +5,7 @@ a:hover {
 }
 html, 
 body {
-      background: url("../overlay.png") center repeat;
+      background: url("../overlay.png") repeat top center fixed;
       background: url("../bg.png") no-repeat top center fixed;
       background-size: cover;
       margin: 10px;
