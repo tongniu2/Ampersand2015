@@ -30,15 +30,19 @@ body {
 #img_cont a {
   display: table-cell;
   text-align: center;
-  width: 150px;
-  height: 150px;
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
   overflow: hidden;
   border-radius: 50%;
 }
 
 #img_cont img {
   width: 100%;
+  max-width: 150px;
   display: inline;
   margin: 0 auto;
   height: auto;
+  max-height: 150px;
 }
