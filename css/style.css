@@ -6,10 +6,10 @@ a:hover {
 html, 
 body {
       background: url("../overlay.png"), url("../bg.png");
-      background-repeat: repeat-x, no-repeat;
+      background-repeat: repeat, no-repeat;
       background-attachment: fixed;
       background-position: top center;
-      background-size: 6px, cover;
+      background-size: contain, cover;
       margin: 10px;
       color: #fff;
       text-align: center;
