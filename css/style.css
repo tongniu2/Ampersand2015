@@ -24,14 +24,14 @@ body {
 #img_cont {
   display: table;
   width: 90%;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 #img_cont a {
   display: table-cell;
   text-align: center;
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 200px;
+  max-height: 200px;
   
 }
 
@@ -41,9 +41,9 @@ body {
   display: inline;
   margin: 0 auto;
   height: auto;
-  max-height: 150px;
+  max-height: 200px;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 200%;
   border-style: solid;
   border-width: 3px;
   border-color: #01FFD4;
