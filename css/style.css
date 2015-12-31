@@ -30,8 +30,8 @@ body {
 #img_cont a {
   display: table-cell;
   text-align: center;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   overflow: hidden;
   border-radius: 50%;
 }
