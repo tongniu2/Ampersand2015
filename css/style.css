@@ -9,7 +9,7 @@ body {
       background-repeat: repeat, no-repeat;
       background-attachment: fixed, fixed;
       background-position: center;
-      background-size: 1px 1px, cover;
+      background-size: 3px 3px, cover;
       margin: 10px;
       color: #fff;
       text-align: center;
