@@ -44,4 +44,6 @@ body {
   max-height: 150px;
   overflow: hidden;
   border-radius: 50%;
+  border-style: solid;
+  border-color: #01FFD4;
 }
