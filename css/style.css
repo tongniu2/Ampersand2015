@@ -24,7 +24,7 @@ body {
 .image-cropper {
     width: 100px;
     height: 100px;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     border-radius: 50%;
 }
