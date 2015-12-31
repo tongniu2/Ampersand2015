@@ -38,7 +38,6 @@ body {
 
 #img_cont img {
   width: 100%;
-  max-width: 150px;
   display: inline;
   margin: 0 auto;
   height: auto;
