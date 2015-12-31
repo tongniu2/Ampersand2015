@@ -13,6 +13,14 @@ body {
       text-align: center;
 }
 
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-repeat: repeat;
+}
+
   #home {padding: 20px 5px 600px 5px; color: #fff; }
   #about {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
   #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
