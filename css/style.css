@@ -57,10 +57,11 @@ body {
 }
 
   #home {padding:30px 5px 200px 5px; width:100%;}
-  #about {padding:10px 5px 10px 5px; color: #fff; background-color: rgba(248, 3, 116, .7); width:100%;}
-  #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(24,2,113,.7); width:100%;}
-  #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(248, 3, 116, .7); width:100%;}
-  #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(24,2,113,.7); width:100%;}
+  #about {padding:10px 5px 10px 5px; color: #fff; background-color: rgba(24,2,113,.8); width:100%;}
+  #team {padding:10px 5px 10px 5px; color: #fff; background-color: rgba(248, 3, 116, .8); width:100%;}
+  #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(24,2,113,.8); width:100%;}
+  #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(248, 3, 116, .8); width:100%;}
+  #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: rgba(24,2,113,.8); width:100%;}
 
 #img_cont {
   display: table;
