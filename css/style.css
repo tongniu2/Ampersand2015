@@ -5,7 +5,7 @@ a:hover {
 }
 html, 
 body {
-      background: url("../overlay1.png"), url("../bg.png");
+      background: url("../overlay1.png"), url("../bg-min.png");
       background-repeat: repeat, no-repeat;
       background-attachment: fixed, fixed;
       background-position: center;
@@ -77,7 +77,7 @@ body {
 }
 
 #img_cont img {
-  width: 100%;
+  width: 90%;
   max-width: 200px;
   display: inline;
   margin: 0 auto;
