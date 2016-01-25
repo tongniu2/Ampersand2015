@@ -64,7 +64,7 @@ body {
 
 #img_cont {
   display: table;
-  width: 90%;
+  width: 100%;
   margin: 10px auto;
 }
 
@@ -77,11 +77,10 @@ body {
 }
 
 #img_cont img {
-  width: 90%;
+  width: 100%;
   max-width: 200px;
   display: inline;
   margin: 0 auto;
-  height: auto;
   max-height: 200px;
   overflow: hidden;
   border-radius: 200%;
