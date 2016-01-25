@@ -56,11 +56,11 @@ body {
   }
 }
 
-  #home {padding: 0px 0px 0px 0px; color: #fff; }
-  #about {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
-  #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
-  #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; }
-  #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; }
+  #home {padding: 0px 0px 0px 0px; color: #fff; background-color: #180271; opacity:70%; width:100%;}
+  #about {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; opacity:70%; width:100%;}
+  #schedule {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; opacity:70%; width:100%;}
+  #tickets {padding: 10px 5px 10px 5px; color: #fff; background-color: #f80374; opacity:70%; width:100%;}
+  #contact {padding: 10px 5px 10px 5px; color: #fff; background-color: #180271; opacity:70%; width:100%;}
 
 #img_cont {
   display: table;
