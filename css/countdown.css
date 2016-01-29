@@ -6,6 +6,32 @@
     padding: 20px 20px 0;
 }
 
+#counter-default {
+    margin-top: 80px;
+}
+
+
+
+.bk-blue {
+    background-color: #01FFD4;
+}
+
+.bk-green {
+    background-color: #01FFD4;
+}
+
+.bk-red {
+    background-color: #01FFD4;
+}
+
+.bk-pink {
+    background-color: #01FFD4;
+}
+
+.medium {
+    height: 5px;
+}
+
 
 .progress {
     color: #000;
