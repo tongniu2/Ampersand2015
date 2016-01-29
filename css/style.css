@@ -3,6 +3,31 @@ a:focus,
 a:hover {
   color: #fff;
 }
+
+#counter-default {
+    margin-top: 80px;
+}
+
+.bk-blue {
+    background-color: #01FFD4;
+}
+
+.bk-green {
+    background-color: #01FFD4;
+}
+
+.bk-red {
+    background-color: #01FFD4;
+}
+
+.bk-pink {
+    background-color: #01FFD4;
+}
+
+.medium {
+    height: 5px;
+}
+
 html, 
 body {
       background: url("../overlay1.png"), url("../bg-min.png");
@@ -14,6 +39,7 @@ body {
       color: #fff;
       text-align: center;
 }
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
