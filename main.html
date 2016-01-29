@@ -13,6 +13,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--PUT YOUR FAVICON HERE-->
     <!--REQUIRED STYLE SHEETS-->
+    <link href="./css/countdown.css" rel="stylesheet" />
     <!--MAIN BOOTSTRAP STYLE-->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <!--FONT AWESOME STYLE -->
@@ -62,6 +63,45 @@
                         MARCH 19TH to 20TH &nbsp;&nbsp;What does it mean to be human in the age of big data?
                 </div>
             </div>
+            <div id="counter"></div>
+                        <div id="counter-default" class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="day-number" class="timer-number"></div>
+                                    <div class="timer-text">DAYS</div>
+                                    <div class="progress medium  active">
+                                        <div id="day-bar" class="progress-bar bk-blue"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="hour-number" class="timer-number"></div>
+                                    <div class="timer-text">HOURS</div>
+                                    <div class="progress medium  active">
+                                        <div id="hour-bar" class="progress-bar bk-green"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="minute-number" class="timer-number"></div>
+                                    <div class="timer-text">MINUTES</div>
+                                    <div class="progress medium  active">
+                                        <div id="minute-bar" class="progress-bar bk-pink"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="inner">
+                                    <div id="second-number" class="timer-number"></div>
+                                    <div class="timer-text">SECONDS</div>
+                                    <div class="progress medium  active">
+                                        <div id="second-bar" class="progress-bar bk-red"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             <!--./row-->
      </section>
         <!-- END HOME SECTION -->
@@ -227,7 +267,8 @@
 	<!--REQUIRED BOOTSTRAP SCRIPTS FILE-->
     <script src="./js/bootstrap.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-	
+    <script src="./js/jquery.countdown.js"></script>
+    <script src="./js/countdown.js"></script>	
     <!--END REQUIRED SCRIPTS FILES-->
 </body>
 </html>
