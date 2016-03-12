@@ -33,9 +33,9 @@ body {
       background: url("../overlay1.png"), url("../bg-min.png");
       background-repeat: repeat, no-repeat;
       background-attachment: fixed, fixed;
-      background-position: center;
-      background-size: 3px 3px, cover;
-      margin: 5px;
+      background-position: center; center;
+      /*background-size: 3px 3px, cover;*/
+     /* margin: 5px;*/
       color: #fff;
       text-align: center;
 }
